@@ -1,0 +1,8 @@
+.Card{
+border: 1px solid #7c0705a4;
+border-radius: 0.5rem;
+padding: 1rem;
+margin: 1rem;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease-in-out;}
+

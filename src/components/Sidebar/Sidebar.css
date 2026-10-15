@@ -1,0 +1,123 @@
+.double-sidebar {
+  display: flex;
+  background: rgba(82, 246, 255, 0.982);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Mini barra de iconos de la izquierda */
+.rail-sidebar {
+  width: 64px;
+  background: rgb(95, 243, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0;
+  border-right: 2px solid rgba(4, 0, 0, 0.06);
+}
+
+.logo-badge {
+  width: 42px;
+  height: 42px;
+  background: #00fbfb;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 4, 11, 0.35);
+}
+
+.rail-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.rail-btn {
+  background: transparent;
+  border: none;
+  color: #00060e;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.rail-btn:hover, .rail-btn.active {
+  color: #00060e;
+  background: transparent;
+}
+
+/* Barra secundaria con textos */
+.menu-sidebar {
+  width: 220px;
+  padding: 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-label {
+  font-size: 11px;
+  color: #00060f;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.brand-title {
+  margin: 4px 0 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fbf9f9;
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.group-title {
+  font-size: 11px;
+  color: #0e2a52;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: transparent;
+  border: none;
+  color: #00060e;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: rgb(5, 249, 225);
+  color: #f9fafb;
+}
+
+.nav-link.selected {
+  background: #45f9d2;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(11, 32, 77, 0.4);
+}
